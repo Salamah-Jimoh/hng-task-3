@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&family=Sora:wght@600&display=swap');
 .container{
     max-width: 1440px;
-    height: 742px;
+    height:724px;
 }
 
 .nav{
@@ -138,6 +138,10 @@ margin-top: 17.5px;
     display:none;
 }
 @media(max-width:765px){
+    .container{
+        max-width: 375px;
+        height:724px;
+    }
     .nav{
         height: 48px;
         width: 375px;
@@ -199,6 +203,12 @@ color: #434343;
         font-size: 18px;
         line-height: 23px;
         margin-right:5rem;
-        margin-left:5rem;
+        margin-left:3rem;
         }
+        .border{
+            width: 395px;
+}
+.first, .inputs{
+    margin-left:1rem;
+}
 }

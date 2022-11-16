@@ -53,7 +53,7 @@ const Nav = () => {
 if(showMenu){
   navMobile =<div class="nav-links-mobile">
    <ul>
-                    <li><a href="">Home</a></li>
+                    <li><Link to ='/'>Home</Link></li>
                     <li><Link to ='/place'>Place to stay</Link></li>
                     <li><a href="">NFTs</a></li>
                     <li><a href="">Community</a></li>
@@ -86,7 +86,7 @@ if(showMenu){
             </div>
             <div className="links">
                 <ul>
-                    <li><a href="">Home</a></li>
+                <li><Link to ='/'>Home</Link></li>
                     <li><Link to ='/place'>Place to stay</Link></li>
                     <li><a href="">NFTs</a></li>
                     <li><a href="">Community</a></li>
