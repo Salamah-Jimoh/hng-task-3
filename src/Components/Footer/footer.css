@@ -60,7 +60,6 @@ line-height: 22px !important;
 }
 @media(max-width:800px){
     .footer{
-        margin-top:5rem;
         grid-template-columns: 1fr 1fr ;
     height: 700px; 
     }
@@ -68,11 +67,11 @@ line-height: 22px !important;
 }
 @media(max-width:480px){
     .footer{
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     height: 1500px; 
     }
     .images, .footer-links{
-        margin-top: 10px;
+        margin-top: 5px;
         margin-left:2rem; 
     }
     .meta-img, .socials, .copy{

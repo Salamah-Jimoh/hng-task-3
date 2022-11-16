@@ -22,16 +22,12 @@ cursor:pointer;
         height:100%;
     }
     .brands{
-        flex-wrap: wrap;
-        align-items:center ;
-        justify-content: center;
-        
+        width:400px;
     }
     .brands img{
         margin-top: 10px;
         margin-left:1rem; 
-        width: 222px;
+        width: 100px;
     height: 50px;
-    cursor:pointer;
     }
 }

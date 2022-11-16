@@ -153,8 +153,14 @@ margin-top: 17.5px;
         display: none;
     }
     .button{
-        margin-left: 1rem;
+        margin-left: -.2rem;
         margin-top: 1rem;
+    }
+    .logo{
+        margin-left: -.2rem;
+    }
+    .btn{
+        margin-left: 1rem;
     }
     .mobile-menu{
         display:block;
@@ -167,7 +173,8 @@ margin-top: 17.5px;
         position: fixed;
         z-index: 1;
         margin: 3rem;
-        top:5%;
+        top:0;
+        left:0;
         border-radius: 5px;
         background-color: lightgray;
         width:80%;
