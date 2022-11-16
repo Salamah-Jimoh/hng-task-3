@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&family=Sora:wght@600&display=swap');
+.container{
+    max-width: 1440px;
+    height: 742px;
+}
+
+.nav{
+    height: 48px;
+    width: 1240px;
+    margin-left: 100px;
+    margin-top: 43px;
+    border-radius: 0px;       
+display: flex;
+
+}
+.nav ul li{
+    display:inline;
+}
+.links{
+    margin-left: 4rem;  
+}
+.links a{
+margin-left:2rem;  
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #434343;
+}
+.button{
+    margin-left: 10rem;
+}
+.btn{
+border:none;
+outline:none;
+padding:1rem;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+border-radius: 10px;
+/*width: 117px;
+height: 20px;*/
+margin-left: 27px;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.modal-box{
+    position: absolute;
+    width: 600px;
+    height: 326px;
+    left: 420px;
+    top: 150px; 
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.first, .inputs{
+    margin-left:3rem;
+}
+.first h4{
+    float:left;
+    width: 182px;
+    height: 30px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333; 
+}
+
+.first img{
+   float:right;
+cursor: pointer;
+margin-left: -100px;
+margin-right:50px;
+margin-top: 1.6rem;
+}
+.border{
+    width: 597px;
+    height: 0px;
+    border: 1px solid #CFD8DC;
+}
+.walletp{
+height: 20px;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #333333;
+margin-left:3rem;
+}
+.inputs{
+    display:flex;
+    flex-direction: column;
+    margin-top: -2rem;
+}
+.meta{
+display:flex;
+border: 1px solid #CFD8DC;
+border-radius: 12px;
+width:80%;
+}
+.meta:hover{
+    background: #F8F9FA;
+}
+.meta-meat div{
+    margin-top:1.5rem;
+}
+.meta img{
+    margin-left:1rem;
+}
+
+
+.inputs p{
+    width: 96px;
+height: 23px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+margin-right:8.5rem;
+margin-left:7rem;
+}
+.arrow{
+height: 15px;
+width: 15.000000000000014px;
+margin-top: 17.5px; 
+}
+.mobile-menu{
+    display:none;
+}
+@media(max-width:765px){
+    .nav{
+        height: 48px;
+        width: 375px;
+        margin-left: 1rem;
+        display:block;
+    }
+
+    .links{
+        display: none;
+    }
+    .button{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .mobile-menu{
+        display:block;
+    }
+    .hamburger, .close{
+        cursor:pointer;
+        font-size: 25px;
+      }
+      .nav-links-mobile{
+        position: fixed;
+        z-index: 1;
+        margin: 3rem;
+        top:5%;
+        border-radius: 5px;
+        background-color: lightgray;
+        width:80%;
+        height:23rem;
+        }
+        .nav-links-mobile ul li{
+        margin: 2rem; 
+        display: block;
+        margin-left:2rem;  
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #434343;
+        }
+        .nav-links-mobile ul{
+          margin-top:4rem;
+        }
+        .modal-box{
+            position: absolute;
+            width: 395px;
+            height: 326px;
+            left: 100px;
+            top: 150px; 
+            background: #FFFFFF;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+        }
+        .inputs p{
+            width: 56px;
+        font-size: 18px;
+        line-height: 23px;
+        margin-right:5rem;
+        margin-left:5rem;
+        }
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap');
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+button{
+    cursor: pointer;   
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
