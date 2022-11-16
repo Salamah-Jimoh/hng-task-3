@@ -58,8 +58,13 @@ if(showMenu){
                     <li><a href="">NFTs</a></li>
                     <li><a href="">Community</a></li>
                 </ul>
+                <div className="button">
+   <button className='btn'
+    onClick={()=>{
+       setShowModal(!showModal)}}> Connect wallet</button>
+</div>
   </div>
-  close =    <p class="close" onClick={()=>{
+  close =   <p class="close" onClick={()=>{
     setShowMenu(false)
 
   }}>X</p>
@@ -92,7 +97,7 @@ if(showMenu){
                     <li><a href="">Community</a></li>
                 </ul>
             </div>
-            <div className="button">
+            <div className="button btn-hide">
                 <button className='btn'
                  onClick={()=>{
                     setShowModal(!showModal)}}> Connect wallet</button>

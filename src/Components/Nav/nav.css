@@ -137,6 +137,9 @@ margin-top: 17.5px;
 .mobile-menu{
     display:none;
 }
+.btn-hide{
+    display:block;
+}
 @media(max-width:765px){
     .container{
         max-width: 375px;
@@ -176,7 +179,7 @@ margin-top: 17.5px;
         top:0;
         left:0;
         border-radius: 5px;
-        background-color: lightgray;
+        background-color: white;
         width:80%;
         height:23rem;
         }
@@ -217,5 +220,8 @@ color: #434343;
 }
 .first, .inputs{
     margin-left:1rem;
+}
+.btn-hide{
+    display:none;
 }
 }
