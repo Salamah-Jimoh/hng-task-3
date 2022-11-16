@@ -96,16 +96,19 @@ height: 459px;
         width: 300px;
         letter-spacing: 50%;
         line-height: normal;
+        margin-left:1.5rem;
     }
     .hero-text p{
         width: 300px;
         height: 100%;
         margin-top:17rem;
+         margin-left:1.5rem;
     }
     .search{
         width: 375px;
     height: 50px;
     margin-bottom:20rem;
+     margin-left:1.5rem;
     }
     .hero-img{
       
