@@ -199,9 +199,9 @@ color: #434343;
         }
         .modal-box{
             position: absolute;
-            width: 395px;
+            width: 375px;
             height: 326px;
-            left: 100px;
+            left: 20px;
             top: 150px; 
             background: #FFFFFF;
             border-radius: 16px;
