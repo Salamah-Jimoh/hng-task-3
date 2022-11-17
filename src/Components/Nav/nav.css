@@ -140,7 +140,7 @@ margin-top: 17.5px;
 .btn-hide{
     display:block;
 }
-@media(max-width:765px){
+@media(max-width:768px){
     .container{
         max-width: 375px;
         height:724px;
@@ -174,7 +174,6 @@ margin-top: 17.5px;
       }
       .nav-links-mobile{
         position: fixed;
-        z-index: 1;
         margin: 3rem;
         top:0;
         left:0;
@@ -202,7 +201,7 @@ color: #434343;
             width: 375px;
             height: 326px;
             left: 20px;
-            top: 150px; 
+            top: 250px; 
             background: #FFFFFF;
             border-radius: 16px;
             display: flex;
